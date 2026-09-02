@@ -2,13 +2,9 @@
 
 #include <stdio.h>
 
-void main()
+void name()
 
 {
-
-	setlocale(LC_ALL, "RUS");
-	getchar();
-
 	puts("* * * * * * * * * * * * * * * * * * * * * *");
 	puts("*                                         *");
 	puts("* тема: –азработка консольного приложени€ *");
@@ -17,4 +13,20 @@ void main()
 	puts("*                                         *");
 	puts("* * * * * * * * * * * * * * * * * * * * * *");
 
+}
+
+void date()
+{
+	puts(" __          __   __     __   __ ");
+	puts("   |    |   |  | |  |   |  | |  |");
+	puts(" --     |   |  | |--|   |  | |--|");
+	puts(" __|    | . |__| |__| . |__| |__|");
+}
+
+void main()
+{
+	setlocale(LC_ALL, "RUS");
+	getchar();
+	name();
+	date();
 }
